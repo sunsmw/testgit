@@ -1,0 +1,70 @@
+一、全局类型
+  1.物品分类：
+    鞋： A
+    衣服： B
+    裤子： C
+    手表： D
+    皮包： E
+    围巾： F
+    眼镜： G
+    首饰： H
+    帽子： I
+    皮带： J
+    ...
+    
+  2.性别分类：
+    男：  man
+    女：  woman
+    
+    ...
+
+
+一、页面类型
+  首页：
+    1.轮播图：
+      datas
+      {
+        code：10000
+        mag:  返回信息
+        data：{
+          list[
+            {
+              name: 图片名称
+              url:  图片地址
+              id:   商品id
+              goods_type: 商品类型
+            }{}{}{}
+          ]
+          listCount：当前页数量
+          page：当前页
+          pageCount：页总数
+          pageSize：每页数量
+        }
+      }
+    
+    2.列表接口：
+      datas
+      {
+        code：10000
+        mag:  返回信息
+        data：{
+          list[
+            {
+              name: 图片名称
+              url:  图片地址
+              id:   商品id
+              product_price：  实际价格
+              last_price:   折扣前价格
+              goods_type: 商品类型
+            }{}{}{}
+          ]
+          listCount：当前页数量
+          page：当前页
+          pageCount：页总数
+          pageSize：每页数量
+        }
+      }
+    
+      
+      
+    
